@@ -1,43 +1,34 @@
-<picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
-  <source media="(max-width: 640px)" srcset="./assets/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Ali Irzha — Geospatial and Full-Stack Software Engineer. Building reliable software for spatial data, field operations, and technical decision-making.">
-</picture>
+<img src="./assets/hero.png" width="100%" alt="xelfyn — Ali Irzha, Geospatial and Full-Stack Software Engineer. Open systems, useful tools, built to last.">
 
 <p align="center">
-  <a href="#current-systems">Current systems</a> ·
-  <a href="#building-in-public">Open-source roadmap</a> ·
-  <a href="#engineering-focus">Engineering focus</a> ·
-  <a href="#services--collaboration">Services</a>
+  <a href="#open-source-constellation">Constellation</a> ·
+  <a href="#project-registry">Projects</a> ·
+  <a href="#contribution-pathways">Contribute</a> ·
+  <a href="#professional-services">Services</a>
 </p>
 
-## Current systems
+<a id="open-source-constellation"></a>
+<img src="./assets/constellation.png" width="100%" alt="Open-source constellation: Geospatial Systems, Offline-first Operations, Scientific Computing, and Open-source Infrastructure.">
 
-| System | Visibility | Focus |
-| --- | --- | --- |
-| **PITLog Core** | Private | Offline-first operational software for field production workflows |
-| **Technical WebGIS** | Case study | Spatial data, field operations, and technical decision support |
+<img src="./assets/crew.png" width="100%" alt="The xelfyn crew: Navigator, Sync, Builder, Analyst, Maintainer, and Beacon.">
 
-Commercial source code, credentials, and client data remain private. Public case studies contain only sanitized architecture, workflows, and results.
+<a id="project-registry"></a>
+<img src="./assets/registry.png" width="100%" alt="Project registry separating private systems and public open-source roadmap.">
 
-## Building in public
+| Private systems | Public roadmap |
+| --- | --- |
+| **PITLog Core** — offline-first field operations and asset-integrity platform. Implementation remains private. | **geojson-doctor** — GeoJSON validation, diagnostics, and repair tooling. `concept` |
+| **Technical WebGIS** — sanitized case study for spatial data, technical mapping, and decision support. | **field-sync-kit** — offline-first synchronization reference for field applications. `concept` |
+| Client data, credentials, operational interfaces, and commercial source code are never published. | **hydrocalc** — reproducible hydrogeology and hydrology calculations. `planned` |
 
-| Project | Purpose | Status |
-| --- | --- | --- |
-| **geojson-doctor** | GeoJSON validation, diagnostics, and repair tooling | Next |
-| **field-sync-kit** | Offline-first synchronization reference implementation | Planned |
-| **hydrocalc** | Reproducible hydrogeology calculations | Planned |
+<a id="contribution-pathways"></a>
+<img src="./assets/contribute.png" width="100%" alt="Contribution pathways: use, report, propose, and contribute.">
 
-Projects will be linked here only after they pass documentation, testing, security, licensing, and release-quality checks.
+Public repositories will provide contribution instructions after their first release. Until then, discussion is welcome through the relevant repository once it becomes available.
 
-## Engineering focus
+<a id="professional-services"></a>
+<img src="./assets/services.png" width="100%" alt="Professional services: geospatial platforms, offline-first software, scientific applications, and custom internal tools.">
 
-I build geospatial platforms, offline-first field applications, scientific tooling, and reliable full-stack software. My current toolkit centers on Laravel/PHP, React/TypeScript, PostgreSQL/PostGIS, OpenLayers, and progressive web application architecture.
+Available for selected software engagements through **CV Geotama Multi Resource**. Private systems and client work are never open-sourced; this profile contains public tools and sanitized case studies only.
 
-## Services & collaboration
-
-Available for selected software engagements through **CV Geotama Multi Resource**, including geospatial systems, operational field software, scientific data applications, and custom internal tools.
-
-Open-source contributions, releases, and verified case studies will be added as the work becomes public.
+<p align="center"><sub>Indonesia · UTC+7 · Building reliable signals that last.</sub></p>
