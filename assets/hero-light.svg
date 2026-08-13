@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Ali Irzha — Geospatial and Full-Stack Software Engineer</title>
+  <desc id="desc">A light technical systems map connecting spatial data, field operations, scientific tools, and software systems. Blue and violet packets move through the network.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d8dee4" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .route { fill: none; stroke-linecap: square; stroke-linejoin: miter; }
+      .motion { display: inline; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.6s ease-out infinite; }
+      .pulse.delay { animation-delay: 1.8s; }
+      @keyframes pulse {
+        0% { opacity: .58; transform: scale(.45); }
+        72%, 100% { opacity: 0; transform: scale(1.85); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+        .pulse { animation: none; opacity: .2; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="418" fill="none" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M520 0V420" stroke="#d0d7de"/>
+
+  <g class="sans">
+    <text x="58" y="170" fill="#0d1117" font-size="68" font-weight="650" letter-spacing="9">ALI IRZHA</text>
+    <text x="60" y="225" fill="#24292f" font-size="24" font-weight="450">Geospatial &amp; Full-Stack Software Engineer</text>
+    <text x="60" y="284" fill="#57606a" font-size="19">
+      <tspan x="60" dy="0">Building reliable software for spatial data,</tspan>
+      <tspan x="60" dy="30">field operations, and technical decision-making.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(520 0)">
+    <rect width="680" height="420" fill="url(#grid)" opacity=".72"/>
+
+    <g class="mono" fill="#57606a" font-size="15" letter-spacing="1.4">
+      <text x="82" y="64">SPATIAL DATA</text>
+      <text x="493" y="64">FIELD OPERATIONS</text>
+      <text x="82" y="373">SCIENTIFIC TOOLS</text>
+      <text x="488" y="373">SOFTWARE SYSTEMS</text>
+    </g>
+
+    <g class="route" stroke="#8c959f" stroke-width="1.5">
+      <path d="M104 94H576V326H104Z"/>
+      <path d="M104 210H576"/>
+      <path d="M340 68V352"/>
+      <path d="M104 326L178 252H340" opacity=".72"/>
+    </g>
+
+    <g fill="#ffffff" stroke="#24292f" stroke-width="2">
+      <rect x="95" y="85" width="18" height="18"/>
+      <rect x="567" y="85" width="18" height="18"/>
+      <rect x="95" y="317" width="18" height="18"/>
+      <rect x="567" y="317" width="18" height="18"/>
+    </g>
+
+    <g transform="translate(340 210)">
+      <circle class="pulse" r="37" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+      <circle class="pulse delay" r="37" fill="none" stroke="#3b82f6" stroke-width="1"/>
+      <circle r="24" fill="#ffffff" stroke="#8c959f"/>
+      <circle r="12" fill="#ffffff" stroke="#8b5cf6" stroke-width="4"/>
+      <circle r="3" fill="#0d1117"/>
+    </g>
+
+    <path d="M42 210H638" stroke="#3b82f6" stroke-width="2" stroke-dasharray="7 7"/>
+    <path d="M340 28V392" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="7 7"/>
+
+    <g fill="none" stroke="#3b82f6" stroke-width="2">
+      <path d="M404 202l8 8-8 8M420 202l8 8-8 8M436 202l8 8-8 8"/>
+    </g>
+    <g fill="none" stroke="#8b5cf6" stroke-width="2">
+      <path d="M332 268l8 8 8-8M332 284l8 8 8-8M332 300l8 8 8-8"/>
+    </g>
+
+    <g class="motion">
+      <rect x="42" y="201" width="18" height="18" fill="#3b82f6">
+        <animateMotion path="M0 0 H578" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="331" y="28" width="18" height="18" fill="#8b5cf6">
+        <animateMotion path="M0 0 V346" dur="8.5s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="576" cy="210" r="5" fill="#3b82f6">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.82;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="340" cy="326" r="5" fill="#8b5cf6">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.82;1" dur="3.2s" begin=".8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
